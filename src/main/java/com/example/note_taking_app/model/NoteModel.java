@@ -24,6 +24,7 @@ public class NoteModel {
  public static NoteModel ToEntity(NoteRequestDTO noteRequest){
      return NoteModel.builder()
              .content(noteRequest.getContent())
+             .userId(noteRequest.getUserId())
              .title(noteRequest.getTitle())
              .build();
  }
