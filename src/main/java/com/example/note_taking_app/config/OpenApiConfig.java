@@ -18,7 +18,7 @@ public class OpenApiConfig {
                 .servers(List.of(
                         new Server()
                                 .url("http://localhost:8081")
-                                .description("Local Development Server")
+                                .description("Local Development Server"),
                         new Server()
                                 .url("https://notebackend-production-863a.up.railway.app/")
                                 .description("Production Server")
