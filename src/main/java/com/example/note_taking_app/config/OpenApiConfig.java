@@ -19,9 +19,9 @@ public class OpenApiConfig {
                         new Server()
                                 .url("http://localhost:8081")
                                 .description("Local Development Server")
-//                        new Server()
-//                                .url("https://machineeventstore-production.up.railway.app")
-//                                .description("Production Server")
+                        new Server()
+                                .url("https://notebackend-production-863a.up.railway.app/")
+                                .description("Production Server")
                 ));
     }
 }
