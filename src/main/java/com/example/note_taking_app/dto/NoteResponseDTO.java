@@ -20,6 +20,7 @@ private String userId;
 
 public static NoteResponseDTO toNoteResponseDTO(NoteModel note){
     return NoteResponseDTO.builder()
+            .id(note.getId())
             .content(note.getContent())
             .title(note.getTitle())
             .createdAt(note.getCreatedAt())
